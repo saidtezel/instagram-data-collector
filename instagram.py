@@ -83,7 +83,6 @@ class InstagramScraper:
 url = 'https://www.instagram.com/said_tezel/?hl=en'
 instagram = InstagramScraper(url)
 metrics = instagram.post_metrics()
-print(metrics)
 
 connection = pymysql.connect(host=DB_IP,
                              user=DB_USER,
